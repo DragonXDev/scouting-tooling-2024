@@ -311,8 +311,7 @@ if __name__ == "__main__":
     matches = fetch_matches(event_key, api_key)
 
     # users = ["User_" + str(i + 1) for i in range(20)]
-    users = ["Jeslyn","Bhavya","Aimee","Grace","Anuhya","Vivian","Diya","Allison","Bhrigu","Nathan L","Akhil","Sidharth","Govind","Ryan W","Aiden","Leo","Pranaav","Mathew","Jerry","Amaar","Bryan","Nathan W"]
-    #leo vivian diya tmrw mning
+    users = []
     print("EEE: ",len(users))
     random.shuffle(users)
 
